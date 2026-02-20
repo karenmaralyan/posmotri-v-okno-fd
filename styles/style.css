@@ -254,7 +254,7 @@ ol {
   gap: 5px;
 }
 
-.search-form__label:hover {
+.search-form__label:hover .search-form__label-text  {
   text-decoration: underline;
   text-underline-offset: 4px;
   text-decoration-thickness: 1px;
@@ -268,11 +268,10 @@ input.search-form__textfield {
   border-left: none;
   border-right: none;
   color: white;
-  background-color: black;
   appearance: none;
   font-size: 18px;
   text-decoration: none;
-
+  background-color: transparent;
 }
 
 .search-form__textfield:focus {
@@ -350,4 +349,4 @@ input.search-form__textfield {
   height: 34px;
 }
 
-
+ 
