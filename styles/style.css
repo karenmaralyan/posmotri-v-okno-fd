@@ -48,11 +48,10 @@ ol {
   block-size: 100%;
   margin: auto;
   color: #fff;
-  font-family: 'Fira Sans Condensed', sans-serif;
+  font-family: "Fira Sans Condensed", sans-serif;
   font-size: 18px;
   background-color: #1b1919;
 }
-
 
 .content {
   display: flex;
@@ -109,16 +108,9 @@ ol {
 }
 
 .content__list-container {
-  display: flex;
   position: relative;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: space-between;
-  width: 399px;
   height: 298px;
   overflow: auto;
-  gap: 30px;
-  
 }
 
 .content__list {
@@ -156,7 +148,7 @@ ol {
 }
 
 .search-form__fieldset-title {
-  font-family: 'Fira Sans Condensed', sans-serif;
+  font-family: "Fira Sans Condensed", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 18px;
@@ -165,7 +157,7 @@ ol {
 }
 
 .title {
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   font-weight: 700;
   font-size: 75px;
   line-height: 94%;
@@ -205,7 +197,7 @@ ol {
 }
 
 .content__video-card-title {
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   font-weight: 700;
   font-size: 30px;
   line-height: 100%;
@@ -220,7 +212,7 @@ ol {
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 3;
   word-break: break-all;
-  font-family: 'Fira Sans Condensed', sans-serif;
+  font-family: "Fira Sans Condensed", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 18px;
@@ -252,7 +244,7 @@ ol {
   gap: 5px;
 }
 
-.search-form__label:hover .search-form__label-text  {
+.search-form__label:hover .search-form__label-text {
   text-decoration: underline;
   text-underline-offset: 4px;
   text-decoration-thickness: 1px;
@@ -309,12 +301,13 @@ input.search-form__textfield {
 .button {
   border: 1px solid white;
   background-color: transparent;
-  font-family: 'Fira Sans Condensed', sans-serif;
+  font-family: "Fira Sans Condensed", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 100%;
   text-align: center;
   color: #fff;
+  height: 34px;
 }
 
 .button:hover {
@@ -333,8 +326,6 @@ input.search-form__textfield {
   outline-offset: 1px;
 }
 
-
-
 .search-form__submit-button {
   display: flex;
   width: 194px;
@@ -345,10 +336,6 @@ input.search-form__textfield {
   justify-content: center;
 }
 
-
 .more-button {
   width: 100%;
-  height: 34px;
 }
-
- 
