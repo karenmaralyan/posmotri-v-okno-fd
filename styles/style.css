@@ -52,10 +52,7 @@ ol {
   font-size: 18px;
   background-color: #1b1919;
 }
-.button:hover{
-  text-decoration: underline;
-  cursor: pointer;
-}
+
 
 .content {
   display: flex;
@@ -123,6 +120,7 @@ ol {
   gap: 30px;
   
 }
+
 .content__list {
   display: flex;
   flex-direction: column;
@@ -319,6 +317,23 @@ input.search-form__textfield {
   color: #fff;
 }
 
+.button:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+}
+
+.button:active {
+  background-color: #545050;
+}
+
+.button:focus-visible {
+  outline: 1px solid white;
+  outline-offset: 1px;
+}
+
+
 
 .search-form__submit-button {
   display: flex;
@@ -330,19 +345,6 @@ input.search-form__textfield {
   justify-content: center;
 }
 
-.search-form__submit-button:hover {
-  text-decoration-thickness: 1px;
-  text-underline-offset: 2px;
-}
-
-.search-form__submit-button:active {
-  background-color: #545050;
-}
-
-.search-form__submit-button:focus-visible {
-  outline: 1px solid white;
-  outline-offset: 1px;
-}
 
 .more-button {
   width: 100%;
